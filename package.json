@@ -1,0 +1,30 @@
+{
+  "name": "query-ip-area-cli",
+  "version": "1.0.0",
+  "description": "cli ip area",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ip": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayin/query-ip-area-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "ip",
+    "area"
+  ],
+  "author": "Jayin Ton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jayin/query-ip-area-cli/issues"
+  },
+  "homepage": "https://github.com/Jayin/query-ip-area-cli#readme",
+  "dependencies": {
+    "request": "^2.66.0"
+  }
+}
