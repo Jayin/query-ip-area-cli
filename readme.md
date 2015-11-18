@@ -1,65 +1,18 @@
-# query-ip-area-cli [![Build Status](https://travis-ci.org/Jayin/query-ip-area-cli.svg?branch=master)](https://travis-ci.org/Jayin/query-ip-area-cli)
+# query-ip-area-cli
 
-> My groundbreaking module
+> 查询IP归属地
 
 
 ## Install
 
 ```
-$ npm install --save query-ip-area-cli
-```
-
-
-## Usage
-
-```js
-const queryIpAreaCli = require('query-ip-area-cli');
-
-queryIpAreaCli('unicorns');
-//=> 'unicorns & rainbows'
-```
-
-
-## API
-
-### queryIpAreaCli(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
-```
 $ npm install --global query-ip-area-cli
 ```
 
+## Usage
 ```
-$ query-ip-area-cli --help
-
-  Usage
-    query-ip-area-cli [input]
-
-  Options
-    --foo  Lorem ipsum. [Default: false]
-
-  Examples
-    $ query-ip-area-cli
-    unicorns & rainbows
-    $ query-ip-area-cli ponies
-    ponies & rainbows
+$ ip 121.22.164.241
+中国 河北 秦皇岛  联通
 ```
 
 
